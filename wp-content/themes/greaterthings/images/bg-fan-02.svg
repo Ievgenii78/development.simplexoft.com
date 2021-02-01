@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="493px" height="206px" viewBox="0 0 493 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>bg-fan-02</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.625655385 0.179955705 151.435378 0.179955705 151.435378 174 0.625655385 174"></polygon>
+        <polygon id="path-3" points="0 0.0856642336 186.906383 0.0856642336 186.906383 158.430774 0 158.430774"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-1089.000000, -3462.000000)">
+            <g id="bg-fan-02" transform="translate(1329.000000, 3566.500000) rotate(-70.000000) translate(-1329.000000, -3566.500000) translate(1191.000000, 3342.000000)">
+                <g id="Group-3" transform="translate(124.000000, 275.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M90.11624,0.179955705 L0.625655385,121.644801 C39.9118092,150.557996 86.2531015,168.615459 134.755132,174.002452 L151.435378,24.1148819 C128.641225,21.6134859 107.664055,13.0956604 90.11624,0.179955705" id="Fill-1" fill="#7C3782" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-6">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M186.906383,97.1741314 L54.8446456,0.0856642336 C24.5658394,41.157781 5.64260813,89.6120876 -0.002454375,140.322745 L162.943502,158.430774 C165.455146,135.662891 173.980008,114.701723 186.906383,97.1741314" id="Fill-4" fill="#DB306B" mask="url(#mask-4)"></path>
+                </g>
+                <path d="M163.52769,192 L50,209.25228 C56.3681068,251.216178 73.7677087,290.846474 100.313781,324 L190,252.321568 C176.321274,235.257614 166.945323,214.599094 163.52769,192" id="Fill-7" fill="#C72A80"></path>
+            </g>
+        </g>
+    </g>
+</svg>

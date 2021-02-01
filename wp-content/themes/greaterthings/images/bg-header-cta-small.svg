@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1096px" height="266px" viewBox="0 0 1096 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 57.1 (101010) - https://sketch.com -->
+    <title>FA994650-0CE7-4975-84B1-2E37B11D7825</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="7.91064453%" y1="43.446576%" x2="48.6416016%" y2="43.446576%" id="linearGradient-1">
+            <stop stop-color="#C72A80" offset="0%"></stop>
+            <stop stop-color="#DB306B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Guides" transform="translate(-704.000000, 0.000000)" fill="#C72A80">
+            <g id="bg-header-cta" transform="translate(1357.680890, -456.565844) rotate(-104.000000) translate(-1357.680890, 456.565844) translate(659.680890, -1245.065844)">
+                <path d="M592.698512,1576.78069 L1395.07265,487.071648 C1074.05988,250.799266 702.328027,92.5089924 310.819989,23.8363913 C257.458611,14.4765205 203.729853,6.78146622 149.712062,0.780689354 C123.313459,237.972445 103.514508,415.866261 90.3152063,534.462139 C70.2613042,714.646686 40.1804511,984.923506 0.0726470213,1345.2926 C220.339968,1369.55578 423.128266,1451.90832 592.698512,1576.78069" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

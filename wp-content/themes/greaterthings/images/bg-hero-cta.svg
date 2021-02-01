@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="7.91064453%" y1="43.446576%" x2="48.6416016%" y2="43.446576%" id="linearGradient-1">
-            <stop stop-color="#C72A80" offset="0%"></stop>
-            <stop stop-color="#DB306B" offset="100%"></stop>
+            <stop stop-color="#FFA500" offset="0%"></stop>
+            <stop stop-color="#FFA500" offset="100%"></stop>
         </linearGradient>
         <path d="M592.625865,1576 L1395,486.290958 C1073.98724,250.018576 702.25538,91.7283031 310.747342,23.0557019 C257.385964,13.6958311 203.657206,6.00077686 149.639415,0 C123.240812,237.191755 103.441861,415.085572 90.2425593,533.681449 C70.1886572,713.865996 40.1078041,984.142816 0,1344.51191 C220.267321,1368.77509 423.055619,1451.12763 592.625865,1576" id="path-2"></path>
         <filter x="-4.7%" y="-6.3%" width="112.0%" height="110.7%" filterUnits="objectBoundingBox" id="filter-3">

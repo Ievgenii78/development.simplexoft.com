@@ -1670,7 +1670,7 @@ a.btn.btn-primary-mast {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: #db306b;
+  background: #1e90ff;
   position: absolute;
   right: 15px;
   top: 50%;
@@ -4902,4 +4902,47 @@ p.blog-categories {
 
 .lock-scroll {
   overflow: hidden;
+}
+
+.thank-you-pg-wrapper {
+  margin: 0;
+  padding: 0;
+}
+.thank-you-pg-img {
+  object-fit: cover;
+  width: 100%;
+  height: 259px;
+}
+.thank-you-pg-img-wrapper {
+  margin-bottom: 200px;
+}
+.thank-you-pg-img-wrapper:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  top: 259px;
+  background: linear-gradient(180deg, #e9f7fe 0%, rgba(230, 246, 253, 0) 100%);
+}
+.thank-you-pg-text {
+  text-align: center;
+  color: #b3b3b3;
+}
+.thank-you-pg-text span {
+  color: #f9cd3a;
+}
+.thank-you-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 70px;
+}
+.thank-you-conditions-wrapper {
+  padding: 60px;
+}
+.thank-you-pg-conditions {
+  font-size: 14px;
 }

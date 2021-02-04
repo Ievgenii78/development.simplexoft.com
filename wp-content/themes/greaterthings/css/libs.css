@@ -7311,23 +7311,23 @@ fieldset[disabled] .btn-default.active {
 .btn-primary-mast {
   border: none;
   color: #fff;
-  background: #1e90ff; /* Old browsers */
-  background: -moz-linear-gradient(
+  background-color: #1e90ff; /* Old browsers */
+  /* background: -moz-linear-gradient(
     left,
     #1e90ff 0%,
     #1e90ff 100%
   ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     left,
     #1e90ff 0%,
-    #1e90ff 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
+    #1e90ff 100% */
+  /* ); Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(
     to right,
     #1e90ff 0%,
-    #1e90ff 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1E90FF', endColorstr='#1E90FF',GradientType=1 ); /* IE6-9 */
+    #1e90ff 100% */
+  /* ); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1E90FF', endColorstr='#1E90FF',GradientType=1 ); IE6-9 */
 }
 
 .btn-primary-mast:hover,
@@ -7338,23 +7338,23 @@ fieldset[disabled] .btn-default.active {
 .btn-primary-mast.focus:active,
 .btn-primary-mast:active:focus,
 .btn-primary-mast:focus {
-  background: #ea8735; /* Old browsers */
-  background: -moz-linear-gradient(
+  background: #1e90ff; /* Old browsers */
+  /* background: -moz-linear-gradient(
     left,
     #ea8735 0%,
-    #f1c54c 100%
-  ); /* FF3.6-15 */
-  background: -webkit-linear-gradient(
+    #f1c54c 100% */
+  /* ); FF3.6-15 */
+  /* background: -webkit-linear-gradient(
     left,
     #ea8735 0%,
-    #f1c54c 100%
-  ); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(
+    #f1c54c 100% */
+  /* ); Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(
     to right,
     #ea8735 0%,
-    #f1c54c 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea8735', endColorstr='#f1c54c',GradientType=1 ); /* IE6-9 */
+    #f1c54c 100% */
+  /* ); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea8735', endColorstr='#f1c54c',GradientType=1 ); IE6-9 */
   border-color: transparent;
   color: #fff;
   opacity: 0.95;

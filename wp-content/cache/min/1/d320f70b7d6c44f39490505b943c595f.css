@@ -15212,6 +15212,9 @@ p.rating-text:before {
   width: 250px;
   margin-top: 40px;
 }
+.loan-guides-section .button-pay {
+  width: 300px;
+}
 .loan-guides-section-container {
   background: #f0ebea;
   position: relative;

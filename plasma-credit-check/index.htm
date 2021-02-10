@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../wp-content/themes/greaterthings/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../wp-content/cache/min/1/d320f70b7d6c44f39490505b943c595f.css"
+    />
+    <link rel="stylesheet" href="../css.css" />
+    <title>Plasma Credit Check</title>
+    <link rel="shortcut icon" href="../wp-content/uploads/siteicon-150x150.png" type="image/x-icon">	
+    <script> 
+      function handleClick() {
+
+        async function postData(url = '', data = {}) {
+          const response = await fetch(url, {
+            method: 'POST',
+            mode: 'cors', 
+            cache: 'no-cache', 
+            credentials: 'same-origin', 
+            headers: {
+              'Content-Type': 'application/json',
+              'authorization': 'Bearer 25f39e20-545c-46e6-a6cd-12b3dc067074'
+            },
+            redirect: 'follow',
+            referrerPolicy: 'no-referrer', 
+            body: JSON.stringify(data) 
+          });
+          return await response; 
+        }
+        var json = {
+          "currencyCode": "USDP",
+          "amount": "49",
+          "merchantId": "1",
+          "description": "49",
+          "accountId": "1",
+          "successUri": "https://development.simplexoft.com/thank-you/",
+          "failureUri": "https://development.simplexoft.com/",
+        }
+
+        postData('https://app.plasmapay.com/business/api/v1/public/invoices', json)
+          .then((response) => {
+            if (response.status === 200) {  
+              response.json().then((data) => {  
+                document.location = data.link;  
+              });  
+            }
+          })
+          .catch((err) => {  
+            console.log('Fetch Error :-S', err);  
+          });
+
+      }
+    </script>
+  </head>
+  <body class="thank-you-pg-wrapper">
+    <div class="thank-you-pg-img-wrapper">
+      <img
+        class="thank-you-pg-img"
+        src="../wp-content/themes/greaterthings/images/image 1.png"
+        alt=""
+      />
+    </div>
+    <div class="loan-guides-section loan-guides-small">
+      <div class="container">
+        <button onclick="handleClick();" class="button-pay button btn-pink">
+          Pay with Plasma Pay
+        </button>
+      </div>
+    </div>
+    <div class="thank-you-conditions-wrapper">
+      <p class="thank-you-pg-text thank-you-pg-conditions">
+        †Payday UK is a registered trading name of Payday Loans Ltd who are an
+        introducer appointed representative of Flux Funding Limited, who are a
+        credit broker, not a lender. Registered in England and Wales (Company
+        number 12430457/FRN 921539). Lincenced by the Information Commissioners
+        Office, (registration number ZA654345). Registered Office: Payday Loans
+        Limited, The Charter Building, Charter Place, Uxbridge, UB8 1JG. Flux
+        Funding is authorised and regulated by the Financial Conduct Authority
+        and is entered on the Financial Services Register under reference
+        number: 806333.
+      </p>
+      <p class="thank-you-pg-text thank-you-pg-conditions">
+        Payday UK will not perform a credit check, lenders will complete a soft
+        search when assessing your eligibility for a loan. If you accept a
+        lender's loan offer, they will perform a hard credit search.<br />
+        *Subject to lenders requirements and approval. Once approved, your cash
+        could be sent within 10 minutes. The time that it takes for the cash to
+        be received in your account will depend on your bank's policies and
+        procedures. **Based on the average number of applications in February
+        2020.<br />
+        &#x005E;The average number of daily loan quotes processed by Flux
+        Funding Limited between 1st July and 30th September 2019.
+      </p>
+      <p class="thank-you-pg-text thank-you-pg-conditions">
+        Payday UK does not charge customers a fee for using its services, but it
+        receives a commission from lenders or other brokers if a customer enters
+        into a consumer credit agreement following an introduction through this
+        website.
+      </p>
+    </div>
+  </body>
+</html>

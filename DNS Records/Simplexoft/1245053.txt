@@ -1,0 +1,22 @@
+;;
+;;	Domain:    simplexoft.com
+;; 	Exported:  2025-02-17 23:39:29
+;;
+$ORIGIN simplexoft.com
+$TTL 900
+@	IN	TXT	v=spf1 include:_spf.ukraine.com.ua ~all
+@	IN	TXT	v=DKIM1; o=~
+@	IN	TXT	google-site-verification=1HPLlzNR8v3T7mnGaJFQ_gXB9H9D9EKHXzoiMFk_X0o
+@	IN	TXT	v=spf1 +a +mx +ip4:35.214.94.229 +include:_spf.mailspamprotection.com ~all
+@	IN	TXT	v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPAltHV4Fj1QCp5Txq2ezEYOoxJ+K55BlEIpnd4ON83ZJPMPpwc6w09ZZ/7w5KJ6iQ5asYUFOQUm2gC02jNWRFCJgLvSjsZyIA4XbqNPA0TvprT04HJNZy+pLZQdkYvVc5/ptUmERLWqkF6VP8evmx7kazeTYLzKZburxte2WQ2QIDAQAB;
+@	IN	A	157.90.95.176
+www	IN	A	157.90.95.176
+*	IN	A	157.90.95.176
+mail	IN	CNAME	mail.ukraine.com.ua.
+@	IN	MX	0 mx.ukraine.com.ua.
+@	IN	AAAA	2a01:4f8:252:410f::1
+*	IN	AAAA	2a01:4f8:252:410f::1
+www	IN	AAAA	2a01:4f8:252:410f::1
+bi-ph	IN	A	34.147.5.232
+embedded	IN	A	34.34.52.233
+@	IN	TXT	google-site-verification=1gT7wVFAX0URIql1kmHKYHmQwb31YZh-BlPt5mbEhIQ

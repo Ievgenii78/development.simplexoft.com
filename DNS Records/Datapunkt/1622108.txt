@@ -1,0 +1,30 @@
+;;
+;;	Domain:    datapunkt.io
+;; 	Exported:  2025-02-19 01:57:54
+;;
+$ORIGIN datapunkt.io
+$TTL 900
+@	IN	MX	0 mx.services.
+@	IN	A	157.90.95.176
+@	IN	AAAA	2a01:4f8:252:410f::1
+www	IN	A	157.90.95.176
+www	IN	AAAA	2a01:4f8:252:410f::1
+*	IN	A	157.90.95.176
+*	IN	AAAA	2a01:4f8:252:410f::1
+demo	IN	A	34.90.153.125
+simplex-393108.public.gcp-contour.gke	IN	A	34.32.208.46
+gastrooma	IN	A	34.147.83.100
+kokhan	IN	A	34.34.68.104
+sqlengine	IN	A	34.32.208.46
+test	IN	A	34.90.154.102
+@	IN	TXT	v=spf1 include:_spf.ukraine.com.ua ~all
+sqlengine	IN	TXT	simplex-393108.public.gcp-contour.gke.dev.datapunkt.io
+simplex-393108.public.gcp-contour.gke.dev	IN	A	34.32.208.46
+_acme-challenge.trino.simplex-393108.gke.dev	IN	TXT	xsYk8GsgarnOCEs6cEDPYTgBsFBNLLp5RhyRkF15Opo
+trino.simplex-393108.gke.dev	IN	A	34.32.208.46
+superset.simplex-393108.gke.dev	IN	A	34.32.208.46
+_acme-challenge.superset.simplex-393108.gke.dev	IN	TXT	7r0_I1qRrpEL7IQXkLQWp89HbIAmyAANXmoRbmfWx-k
+hive2.simplex-393108.gke.dev	IN	A	34.32.208.46
+_acme-challenge.hive2.simplex-393108.gke.dev.datapunkt.io	IN	TXT	TPmnQ6dHPRe05KhQl0EjUxZUoIvig-L94G8hvJgRDk0
+qdrant.simplex-393108.gke.dev	IN	A	34.32.208.46
+vanna.simplex-393108.gke.dev	IN	A	34.32.208.46

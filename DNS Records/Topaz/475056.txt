@@ -1,0 +1,17 @@
+;;
+;;	Domain:    topaz.sumy.ua
+;; 	Exported:  2025-02-19 01:57:59
+;;
+$ORIGIN topaz.sumy.ua
+$TTL 900
+@	IN	A	157.90.95.176
+www	IN	A	157.90.95.176
+*	IN	A	157.90.95.176
+mail	IN	CNAME	mail.ukraine.com.ua.
+@	IN	MX	15 mx15.ukraine.com.ua.
+@	IN	MX	20 mx20.ukraine.com.ua.
+@	IN	AAAA	2a01:4f8:252:410f::1
+www	IN	AAAA	2a01:4f8:252:410f::1
+*	IN	AAAA	2a01:4f8:252:410f::1
+@	IN	TXT	v=spf1 include:_spf.ukraine.com.ua ~all
+@	IN	TXT	google-site-verification=VZDwgfkBTraJLLH6UzllCBAoGxz7UFErlzoFHYriaxM
